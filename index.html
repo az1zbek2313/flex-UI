@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./image/flex.png" type="image/x-icon" />
+    <!-- fontawesome icons  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- fonts -->
+    <link rel="stylesheet" href="./css/fonts.css" />
+    <!-- general css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Flex UI library</title>
+  </head>
+  <body>
+    <!-- header section -->
+    <header class="header">
+      <div class="container header_container">
+        <!-- logo  -->
+        <a href="#" class="Logo">
+          <img src="./image/logotip.svg" alt="nexcent picture" width="100" />
+        </a>
+        <!-- navigation -->
+        <nav>
+          <ul class="nav">
+            <li>
+              <a href="#">Product</a>
+            </li>
+            <li>
+              <a href="#">Feature</a>
+            </li>
+            <li>
+              <a href="#">Pricing</a>
+            </li>
+            <li>
+              <a href="#">Resources</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- auth -->
+        <div class="auth">
+          <a href="#">Log In</a>
+          <a class="auth__sign" href="#">Sign Up</a>
+        </div>
+
+        <!-- RESPONSIVE NAVBAR -->
+        <label for="bars">
+          <i id="barss" class="fa-solid fa-bars"></i>
+          <i id="xmark" class="fa-solid fa-xmark"></i>
+        </label>
+      </div>
+
+      <!-- HEADER RESPONSIVE -->
+      <input type="checkbox" name="bars" id="bars" />
+      <div class="header--responsive--box">
+        <ul class="nav">
+          <li>
+            <a href="#">Product</a>
+          </li>
+          <li>
+            <a href="#">Feature</a>
+          </li>
+          <li>
+            <a href="#">Pricing</a>
+          </li>
+          <li>
+            <a href="#">Resources</a>
+          </li>
+        </ul>
+        <div class="header--auth">
+          <a href="#">Log In</a>
+          <a class="auth__sign" href="#">Sign Up</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- hero section -->
+    <main class="hero">
+      <div class="container hero__container">
+        <div class="hero--wrapper">
+          <div class="hero--header">
+            <a href="#">HEADER</a>
+          </div>
+          <h1>A small business is only as good as its tools.</h1>
+          <p>
+            We’re different. Flex is the only saas business platform that lets
+            you run your business on one platform, seamlessly across all digital
+            channels.
+          </p>
+          <div class="btn-group">
+            <button>
+              <i class="fa-regular fa-envelope"></i>
+              <span>Enter your work email &nbsp; &nbsp;</span>
+            </button>
+            <button>Get early access</button>
+          </div>
+          <p class="hero--wrapper--end">
+            Start your free 14-day trial today, no credit card required.
+          </p>
+        </div>
+
+        <!-- POSITION IMAGES -->
+        <img class="frame--green" src="./image/Frame.svg" alt="frame green" />
+        <img class="frame--red" src="./image/Frame-1.svg" alt="frame red" />
+        <img class="group--yellow" src="/image/Group.svg" alt="group yellow" />
+        <img
+          class="group--orange"
+          src="./image/Group (1).svg"
+          alt="group orange"
+        />
+      </div>
+    </main>
+
+    <!-- section -->
+    <section class="logos">
+      <div class="logos__container container">
+        <p>Join 4,000+ companies already growing</p>
+        <div class="logos--collection">
+          <img src="./image/Logo-4.svg" alt="logotip" />
+          <img src="./image/Logo-3.svg" alt="logotip" />
+          <img src="./image/Logo-2.svg" alt="logotip" />
+          <img src="./image/Logo-1.svg" alt="logotip" />
+          <img src="./image/Logo.svg" alt="logotip" />
+        </div>
+      </div>
+    </section>
+    <img width="100%" src="./image/BG Wave.svg" alt="section image" />
+
+    <!-- feature section -->
+    <div class="feature">
+      <div class="feature__container container">
+        <div class="feature--use">
+          <span>FEATURES</span>
+          <h2>Gain more insight into how people use your</h2>
+          <p>
+            With our integrated CRM, project management, collaboration and
+            invoicing capabilities, you can manage every aspect of your business
+            in one secure platform.
+          </p>
+        </div>
+        <div class="feature--cards">
+          <!-- card 1 -->
+          <div class="feature-card">
+            <div class="card-image">
+              <img width="24" src="./image/Vector-5.svg" alt="vector" />
+            </div>
+            <h3>Measure your performance</h3>
+            <p>
+              Stay connected with your team and make quick decisions wherever
+              &nbsp; you are.
+            </p>
+          </div>
+          <!-- card 2 -->
+          <div class="feature-card">
+            <div class="card-image">
+              <img width="24" src="./image/Vector-3.svg" alt="vector" />
+            </div>
+            <h3>Custom analytics</h3>
+            <p>
+              Get a complete sales dashboard in the cloud. See activity, revenue
+              and social metrics all in one place.
+            </p>
+          </div>
+          <!-- card 3 -->
+          <div class="feature-card">
+            <div class="card-image">
+              <img width="24" src="./image/Vector-1.svg" alt="vector" />
+            </div>
+            <h3>Team Management</h3>
+            <p>
+              Our calendar lets you know what is happening with customer and
+              projects so you
+            </p>
+          </div>
+          <!-- card 4 -->
+          <div class="feature-card">
+            <div class="card-image">
+              <img width="24" src="./image/Vector-4.svg" alt="vector" />
+            </div>
+            <h3>Build your website</h3>
+            <p>
+              A tool that lets you build a dream website even if you know
+              nothing about web design or programming.
+            </p>
+          </div>
+          <!-- card 5 -->
+          <div class="feature-card">
+            <div class="card-image">
+              <img width="24" src="./image/Vector-2.svg" alt="vector" />
+            </div>
+            <h3>Connect multiple apps</h3>
+            <p>
+              The first business platform to bring together all of your products
+              from one place.
+            </p>
+          </div>
+          <!-- card 6 -->
+          <div class="feature-card">
+            <div class="card-image">
+              <img width="24" src="./image/Vector.svg" alt="vector" />
+            </div>
+            <h3>Easy setup</h3>
+            <p>
+              End to End Business Platform, Sales Management, Marketing
+              Automation, Help Desk
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- period section -->
+    <div class="period">
+      <div class="container period__container">
+        <div class="period--text">
+          <h3>The fastest way from idea to live site. Period.</h3>
+          <p>
+            Flex is a Small SaaS Business. Flex isn’t a traditional company.
+          </p>
+        </div>
+        <div class="period--btn-group">
+          <button>Get Started</button>
+          <button>Learn More</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- insight section -->
+    <div class="insight">
+      <div class="insight__container container">
+        <!-- first section  -->
+        <div class="feature--use">
+          <span>FEATURES</span>
+          <h2>Gain more insight into how people use your</h2>
+          <p>
+            With our integrated CRM, project management, collaboration and
+            invoicing capabilities, you can manage every aspect of your business
+            in one secure platform.
+          </p>
+        </div>
+        <!-- second section  -->
+        <div class="insight--second">
+          <div class="second--text">
+            <div class="feature-card">
+              <div class="card-image">
+                <img width="24" src="./image/Vector-5.svg" alt="vector" />
+              </div>
+              <div>
+                <h3>Measure your performance</h3>
+                <p>
+                  Stay connected with your team and make quick decisions
+                  wherever &nbsp; you are.
+                </p>
+              </div>
+            </div>
+            <div class="feature-card">
+              <div class="card-image">
+                <img width="24" src="./image/Vector-4.svg" alt="vector" />
+              </div>
+              <div>
+                <h3>Build your website</h3>
+                <p>
+                  A tool that lets you build a dream website even if you know
+                  nothing about web design or programming.
+                </p>
+              </div>
+            </div>
+            <div class="feature-card">
+              <div class="card-image">
+                <img width="24" src="./image/Vector-2.svg" alt="vector" />
+              </div>
+              <div>
+                <h3>Connect multiple apps</h3>
+                <p>
+                  The first business platform to bring together all of your
+                  products from one place.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="second--images">
+            <img src="./image/Rectangle 1-2.png" alt="images" />
+          </div>
+
+          <!-- ABSALUTE IMAGES -->
+          <img
+            class="frame--blue"
+            src="./image/Frame 33.svg"
+            alt="frame blue"
+          />
+          <img
+            class="frame--yellow"
+            src="./image/Frame 14.svg"
+            alt="frame blue"
+          />
+        </div>
+        <!-- third section  -->
+        <div class="insight--second">
+          <div class="third--images">
+            <img src="./image/Rectangle 1-2.png" alt="images" />
+          </div>
+          <div class="third--text">
+            <div class="feature--use">
+              <span>FEATURES</span>
+              <h2>Gain more insight into how people use your</h2>
+              <p>
+                With our integrated CRM, project management, collaboration and
+                invoicing capabilities, you can manage every aspect of your
+                business in one secure platform.
+              </p>
+              <button>Get Started</button>
+            </div>
+          </div>
+
+          <!-- ABSALUTE IMAGES -->
+          <img
+            class="frame--blue--third"
+            src="./image/Frame 33.svg"
+            alt="frame blue"
+          />
+          <img
+            class="frame--yellow--third"
+            src="./image/Frame 14.svg"
+            alt="frame blue"
+          />
+        </div>
+        <!-- fourth section  -->
+        <div class="insight--second">
+          <div class="fourth--images">
+            <img src="./image/Rectangle 1-2.png" alt="images" />
+          </div>
+          <div class="third--text">
+            <div class="feature--use">
+              <span>FEATURES</span>
+              <h2>Gain more insight into how people use your</h2>
+              <p>
+                With our integrated CRM, project management, collaboration and
+                invoicing capabilities, you can manage every aspect of your
+                business in one secure platform.
+              </p>
+              <button>Get Started</button>
+            </div>
+          </div>
+          <div class="second--images">
+            <img src="./image/Rectangle 1-2.png" alt="images" />
+          </div>
+
+          <!-- ABSALUTE IMAGES -->
+          <img
+            class="frame--blue"
+            src="./image/Frame 33.svg"
+            alt="frame blue"
+          />
+          <img
+            class="frame--yellow"
+            src="./image/Frame 14.svg"
+            alt="frame blue"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- numbers section -->
+    <div class="numbers">
+      <div class="numbers__container container">
+        <div class="numbers__use">
+          <span>NUMBERS</span>
+          <h2>We believe in the power of data</h2>
+          <p>
+            Flex is the only business platform that lets you run your business
+            on one platform, seamlessly across all digital channels.
+          </p>
+        </div>
+        <div class="number numbers__collection">
+          <div class="number__project">
+            <h3>235.000</h3>
+            <p>Projects completed</p>
+          </div>
+          <div class="number__project">
+            <h3>$10m</h3>
+            <p>APR</p>
+          </div>
+          <div class="number__project">
+            <h3>+50.000</h3>
+            <p>Hours Saved Annually</p>
+          </div>
+          <div class="number__project">
+            <h3>3.500</h3>
+            <p>Unique Users</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- works section -->
+    <img
+      class="works__image--top"
+      width="100%"
+      src="./image/BG Wave.png"
+      alt="wave"
+    />
+    <div class="works">
+      <div class="works__container container">
+        <div class="insight--second">
+          <div class="third--text">
+            <div class="feature--use">
+              <span>HOW IT WORKS</span>
+              <h2>Gain more insight into how people use your</h2>
+              <p>
+                With our integrated CRM, project management, collaboration and
+                invoicing capabilities, you can manage every aspect of your
+                business in one secure platform.
+              </p>
+            </div>
+          </div>
+          <div class="second--image">
+            <img src="./image/Rectangle 1.png" alt="images" />
+
+            <div class="vector__play">
+              <img src="./image/Vector (1).svg" alt="vector play" />
+            </div>
+          </div>
+        </div>
+        <div class="works__cards--collection">
+          <div class="works__card">
+            <span>1</span>
+            <h4>Measure your performance</h4>
+            <p>
+              Stay connected with your team and make quick decisions wherever
+              you are.
+            </p>
+          </div>
+          <div class="works__card">
+            <span>2</span>
+            <h4>Custom analytics</h4>
+            <p>
+              Get a complete sales dashboard in the cloud. See activity, revenue
+              and social metrics all in one place.
+            </p>
+          </div>
+          <div class="works__card">
+            <span>3</span>
+            <h4>Team Management</h4>
+            <p>
+              Our calendar lets you know what is happening with customer and
+              projects so you
+            </p>
+          </div>
+          <div class="works__card">
+            <span>4</span>
+            <h4>Build your website</h4>
+            <p>
+              A tool that lets you build a dream website even if you know
+              nothing about web design or programming.
+            </p>
+          </div>
+          <div class="works__card">
+            <span>5</span>
+            <h4>Connect multiple apps</h4>
+            <p>
+              The first business platform to bring together all of your products
+              from one place.
+            </p>
+          </div>
+          <div class="works__card">
+            <span>6</span>
+            <h4>Easy setup</h4>
+            <p>
+              End to End Business Platform, Sales Management, Marketing
+              Automation, Help Desk
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img
+      class="works__image--bottom"
+      width="100%"
+      src="./image/BG Wave bottom.png"
+      alt="wave"
+    />
+
+    <!-- your app section -->
+    <div class="application">
+      <div class="application__container container">
+        <span>Application</span>
+        <h3>Great work starts with your app</h3>
+        <div class="application__macbook">
+          <div class="app--image">
+            <img class="app__image" src="./image/11.png" alt="11 macbook" />
+          </div>
+          <!-- responsiv images -->
+          <img class="frame-blue" src="./image/Frame 33.svg" alt="frame blue" />
+          <img
+            class="frame-binafsha"
+            src="./image/Frame 14.svg"
+            alt="frame binafsha"
+          />
+        </div>
+        <p>
+          Our philosophy is simple — hire a team of diverse, passionate people
+          and foster a culture that empowers you to do you best work.
+        </p>
+        <div class="application__buttons">
+          <button>Learn More</button>
+          <button>About Us</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact section -->
+    <div class="contact">
+      <div class="contact__container container">
+        <span>CONTACT</span>
+        <h3>Let’s stay connected</h3>
+        <p>
+          It's never been easier to get in touch with Flex. Call us, use our
+          live chat widget or email and we'll get back to you as soon as
+          possible!
+        </p>
+        <div class="contact__all">
+          <div class="contact__connected email">
+            <div class="email__icon">
+              <img src="./image/open mail _ 24 _ Outline.svg" alt="email" />
+            </div>
+            <h2>Email</h2>
+            <p>contact@flex.co</p>
+          </div>
+          <div class="contact__connected phone">
+            <div class="email__icon">
+              <img src="./image/phone.svg" alt="phone" />
+            </div>
+            <h2>Phone</h2>
+            <p>+7-843-672-431</p>
+          </div>
+          <div class="contact__connected social">
+            <div class="email__icon">
+              <img src="./image/social.svg" alt="social" />
+            </div>
+            <h2>Socials</h2>
+            <p class="social--icons">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- map section -->
+    <div class="map">
+      <div class="map__container container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d191884.8398694803!2d69.11455198349357!3d41.2827379469313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b0cc379e9c3%3A0xa5a9323b4aa5cb98!2z0KLQsNGI0LrQtdC90YIsINCj0LfQsdC10LrQuNGB0YLQsNC9!5e0!3m2!1sru!2sde!4v1719926298521!5m2!1sru!2sde"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+
+    <!-- footer section  -->
+    <footer class="footer">
+      <div class="footer__container container">
+        <a href="#"><img src="./image/logotipwhite.svg" alt="logotip" class="logo" /></a>
+        <nav class="footer__nav">
+          <ul>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Privacy</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+
+    <footer class="footer__end">
+        <p>© 2021 Flex. All rights reserved.</p>
+    </footer>
+
+    <!-- JAVASCRIPT CODE  -->
+    <script defer>
+      const bars = document.getElementById("barss");
+      const xmark = document.getElementById("xmark");
+
+      bars.addEventListener("click", function () {
+        this.style.display = "none";
+        xmark.style.display = "block";
+      });
+
+      xmark.addEventListener("click", function () {
+        this.style.display = "none";
+        bars.style.display = "block";
+      });
+    </script>
+  </body>
+</html>
